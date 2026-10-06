@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "moneygraph",
+  "version": "${version}",
+  "name": "MoneyGraph",
+  "description": "Client-side balance history graphs that automatically capture /bal responses.",
+  "authors": ["JR Young"],
+  "environment": "client",
+  "entrypoints": {"client":["com.jryoung.moneygraph.MoneyGraphClient"]},
+  "depends": {"fabricloader": ">=0.18.0","minecraft": "~1.21.11","java": ">=21","fabric-api": "*"}
+}
